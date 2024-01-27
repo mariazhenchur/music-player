@@ -1,0 +1,150 @@
+@font-face {
+    font-family: SpotifyFont;
+    src: url(CircularSpotifyTxT-Book.ttf);
+}
+
+* {
+    background-color: #212c30;
+    color: white;
+    /* padding: 15px 15px; */
+    font-family: "SpotifyFont", sans-serif;
+    font-weight: 100;
+}
+
+.upper__btn {
+    display: flex;
+    /* flex-direction: space-between; */
+    justify-content: space-between;
+    padding: 15px 15px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    /* margin: 10px; */
+}
+
+.cover {
+    padding: 15px 15px;
+    margin-top: 40px;
+}
+
+.title__song {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.sub__title {
+    font-size: 15px;
+    margin: 0cap;
+    color: #afb2b7;
+}
+
+.main__title {
+    margin: 0cap;
+    font-weight: 600;
+}
+
+
+.player__btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.shuffle,
+.back,
+.forward,
+.replay {
+    width: 30px;
+    height: 30px;
+}
+
+.play {
+    width: 70px;
+    height: 70px;
+}
+
+.play__btn {
+    margin-top: -20px;
+}
+
+.slider {
+    padding: 15px 15px; 
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: green;
+}
+
+/* button[class="hid"] {
+    appearance: none;
+    -webkit-appearance: none;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fn72ari9aEmKo4JcwteT {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: hsla(0,0%,100%,.7);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: var(--button-size);
+    justify-content: center;
+    min-width: var(--button-size);
+    position: relative;
+    width: var(--button-size);
+} */
+
